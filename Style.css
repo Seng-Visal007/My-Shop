@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans", serif;
+}
+.back-header{
+    width: 100%;
+    background-color: rgb(255, 140, 0);
+}
+.header{
+    max-width: 1450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+}
+.header .privacy{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header .promotion{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+.header .country{
+    display: flex;
+    gap: 30px;
+}
+.header .country button{
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-weight: 300;
+}
+.back-navbar , .left-navbar img{
+    height: 80px;
+    padding: 5px;
+}
+.back-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(249, 232, 226);
+}
+.right-navbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search form{
+    display: flex;
+}
+.search input{
+    width: 400px;
+    padding: 17px 25px;
+    font-size: 20px;
+    border: 1px solid gray;
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search button{
+    background-color: rgb(255, 140, 0);
+    width: 120px;
+    border:none;
+    font-size: 20px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all 0.3s ease;
+    padding: 17px 0px;
+}
+.search button:hover{
+    background-color: blue;
+}
+.support{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px 25px;
+    border: 1px solid black;
+}
+.support i{
+    font-size: 30px;
+}
+.profile{
+    padding: 12px;
+}
+.back-menu{
+    background-color: rgb(249, 232, 226);
+    width: 100%;
+}
+.menu-section{
+    max-width: 1450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.catagory{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.catagory i{
+    font-size: 30px;;
+}
+.catagory select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    gap: 45px;
+}
+.menu li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu li:hover {
+    color: #e97000;
+}
+.menu li:first-child {
+    color: #e97000;
+  }
+.menu li:nth-child(2){
+    position: relative;
+}
+.sub-menu {
+    position: absolute;
+    background-color: #fdf0e1;
+    width: 95vw;
+    top: 45px;
+    height: 0;
+    left: -580px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu li:nth-child(2):hover .sub-menu{
+    height: 340px;
+}
+
+
+.discount{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #e97000 ;
+    font-weight: 600;
+}
+.discount i{
+    color: #3c3c3c;
+    font-size: 25px;
+}
